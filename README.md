@@ -13,11 +13,15 @@ This repository corresponds to the codebase developed during the MSc thesis:
 
 The numbered folders indicate the **chronological and logical order** in which they were used throughout the project:
 
-**0_lammps_simulations/** → Pipeline to quickly generate thousands of LAMMPS vesicle simulations based on specified vesicle/lipid/enviornmental parameters. Also includes weak supervision framework Snorkel to select    stable trajectories for longer production runs.
-**1_feature_extraction/** → Scripts to extract features describing individual simulation frames (morphological and phase separation).
-**2_latent_autoencoder/** → Autoencoder training (DeepSphere building blocks) and evaluation.
-**3_latent_sphericalharmonics/** → Spherical harmonics scripts covering optimal choice of max degree l, application to simulation data, and performance comparison to autoencoder in reconstruction accuracy.
-**4_interpolant/** → Pipeline for for training two-sided stochastic interpolant (using Diffusion Transformer architecture) and autoregressive sampling to create MD trajectories in seconds/minutes. Analysis scripts included.
+- **0_lammps_simulations/** → Pipeline to quickly generate thousands of LAMMPS vesicle simulations based on specified vesicle/lipid/enviornmental parameters. Also includes weak supervision framework Snorkel to select    stable trajectories for longer production runs.
+
+- **1_feature_extraction/** → Scripts to extract features describing individual simulation frames (morphological and phase separation).
+
+- **2_latent_autoencoder/** → Autoencoder training (DeepSphere building blocks) and evaluation.
+
+- **3_latent_sphericalharmonics/** → Spherical harmonics scripts covering optimal choice of max degree l, application to simulation data, and performance comparison to autoencoder in reconstruction accuracy.
+
+- **4_interpolant/** → Pipeline for for training two-sided stochastic interpolant (using Diffusion Transformer architecture) and autoregressive sampling to create MD trajectories in seconds/minutes. Analysis scripts included.
 
 Each folder contains its own `environment.yml` file to ensure isolated and reproducible environments tailored to the respective task.
 
