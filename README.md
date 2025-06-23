@@ -3,7 +3,7 @@
 **LipidGen** is a modular pipeline for studying the dynamics and organization of lipid vesicles using coarse-grained molecular dynamics (MD) simulations and generative modeling. The project builds on coarse-grained LAMMPS simulations and systematically extracts physically meaningful features — particularly spherical harmonic (SH) representations — which are then modeled using deep generative methods to capture the underlying stochastic dynamics.
 
 This repository corresponds to the codebase developed during the MSc thesis:  
-**"Generative modeling of lipid vesicle dynamics"** by Tim Wehnes (Delft University of Technology, 2025).
+**"LipidGen: A Framework for Generative Modelling of Lipid Vesicles"** by Tim Wehnes (Delft University of Technology, 2025).
 
 ---
 
@@ -39,7 +39,7 @@ Each folder contains its own `environment.yml` file to ensure isolated and repro
     ```
 
     
-## 📄 Thesis Reference
+## 📄 Further details
 For a full explanation of the methodology, feature choices, and modeling approach, see the accompanying thesis:
 “LipidGen: A Framework for Generative Modelling of Lipid Vesicles” — T. Wehnes, 2025
 TU Delft MSc Thesis, Department of Bionanoscience.
