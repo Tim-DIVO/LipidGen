@@ -9,7 +9,7 @@ This repository corresponds to the codebase developed during the MSc thesis:
 
 ## 📁 Folder Overview
 
-![Project overview](workflow.png)
+![Project overview](./workflow.PNG)
 
 The numbered folders indicate the **chronological and logical order** in which they were used throughout the project:
 
